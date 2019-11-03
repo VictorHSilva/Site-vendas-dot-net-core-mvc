@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using SiteVendas.Models;
 using SiteVendas.Data;
+using SiteVendas.Services;
 
 
 namespace SiteVendas
@@ -43,6 +44,7 @@ namespace SiteVendas
                             builder.MigrationsAssembly("SiteVendas")));
 
             services.AddScoped<SeedingService>();
+            services.AddScoped<VendedorService>();
            
         }
 
