@@ -45,11 +45,11 @@ namespace SiteVendas.Data
                 RegVendas r3 = new RegVendas(3, new DateTime(2018, 09, 25), 9000.0, RegStatus.Faturado, s3);
                 RegVendas r4 = new RegVendas(4, new DateTime(2018, 09, 25), 15000.0, RegStatus.Faturado, s4);
 
-            /*   _context.Departamento.AddRange(d1, d2, d3, d4);
+            /*  _context.Departamento.AddRange(d1, d2, d3, d4);
                 _context.Vendedor.AddRange(s1, s2, s3, s4);
-                _context.RegVendas.AddRange(r1, r2, r3, r4);
+                _context.RegVendas.AddRange(r1, r2, r3, r4);*/
 
-                _context.SaveChanges();*/
+                _context.SaveChanges();
             
 
         }

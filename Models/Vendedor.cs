@@ -13,6 +13,7 @@ namespace SiteVendas.Models
         public DateTime DataNasc { get; set; }
         public double SalarioBase { get; set; }
         public Departamento Departamento { get; set; }
+        public int DepartamentoId { get; set; }
         public ICollection<RegVendas> Vendas { get; set; } = new List<RegVendas>();
 
         public Vendedor()
