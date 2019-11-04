@@ -48,6 +48,7 @@ namespace SiteVendas
             services.AddScoped<SeedingService>();
             services.AddScoped<VendedorService>();
             services.AddScoped<DepartamentoService>();
+            services.AddScoped<RegVendasService>();
 
         }
 
